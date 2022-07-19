@@ -1,0 +1,12 @@
+.mintinfo{
+    text-align: center;
+    /* margin: 10px 40px; */
+    padding: 10px;
+    /* cursor: pointer; */
+    opacity: 1;
+    font-size: 44px;
+    /* border-radius: 12px; */
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+    background-color: #c71585
+}

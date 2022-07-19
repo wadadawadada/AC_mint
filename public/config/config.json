@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x8ee202cc7d35a75063209cc59ec5a65cc536ad6f",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x8ee202cc7d35a75063209cc59ec5a65cc536ad6f",
+  "NETWORK": {
+    "NAME": "Rinkeby",
+    "SYMBOL": "rETH",
+    "ID": 4
+  },
+  "NFT_NAME": "ACMembership",
+  "SYMBOL": "ARTCO",
+  "MAX_SUPPLY": 1000000000000000,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0.0,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea Testnets",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/the-ac-membership-inciakgsxw",
+  "SHOW_BACKGROUND": true
+}
