@@ -1,6 +1,6 @@
 # Welcome to ACMembership Minting Dapp 🎨
 
-Currently Hosted at: *https://main--preeminent-crumble-02b163.netlify.app/*
+Currently Hosted at: *https://acmint.netlify.app/*
 
 Any changes to this repo will result in changes to the above url. It will take about 3 minutes for netlify to build and deploy the changes to the site.
 
