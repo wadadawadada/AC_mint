@@ -270,6 +270,7 @@ function App() {
                 {CONFIG.MARKETPLACE}
               </StyledButton> */}
             </span>
+            <s.SpacerLarge />
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
