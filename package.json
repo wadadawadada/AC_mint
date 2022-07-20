@@ -1,7 +1,7 @@
 {
-  "name": "sbudz_mint_site",
+  "name": "acmembership_mint_site",
   "version": "1.0.0",
-  "description": "SBUDZ NFT minting site.",
+  "description": "The Artist Collective Membership NFT Minting Site.",
   "private": true,
   "dependencies": {
     "check-node-version": "^4.2.1",
@@ -17,7 +17,7 @@
     "web3-eth-contract": "^1.5.2",
     "yarn": "^1.22.19"
   },
-  "author": "wadada",
+  "author": "jahhweh, wadada",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",

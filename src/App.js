@@ -323,6 +323,17 @@ Collect and stake NFT art to generate ART particles <br></br>and build your own 
                         textShadow: "2px 2px 3px #000000"
                       }}
                     >
+                    <s.TextDescription
+                      style={{
+                      textAlign: "center",
+                      color: "var(--primary-text)",
+                      }}
+                    >
+                      View contract on <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>etherscan.io 
+                      <s.SpacerXSmall />
+                      </StyledLink>
+                     </s.TextDescription>
+                    <s.SpacerXSmall />
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
@@ -402,7 +413,7 @@ Collect and stake NFT art to generate ART particles <br></br>and build your own 
                           getData();
                         }}
                       >
-                        {claimingNft ? "BUSY" : "BUY"}
+                        {claimingNft ? "BUSY" : "MINT"}
                       </StyledButton>
                     </s.Container>
                   </>
