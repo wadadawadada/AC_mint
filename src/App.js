@@ -70,6 +70,7 @@ export const StyledLogo = styled.img`
   @media (min-width: 767px) {
     width: 150px;
   }
+  paddingBottom: 100px
   transition: width 0.5s;
   transition: height 0.5s;
 `;
