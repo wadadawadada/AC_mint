@@ -334,7 +334,6 @@ Collect and stake NFT art to generate ART particles <br></br>and build your own 
                       </StyledLink>
                      </s.TextDescription>
                     <s.SpacerXSmall />
-                      Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
