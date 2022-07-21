@@ -1,7 +1,7 @@
 {
   "name": "acmembership_mint_site",
   "version": "1.0.0",
-  "description": "The Artist Collective Membership NFT Minting Site.",
+  "description": "The Artist Collective Membership NFT Mint Dapp.",
   "private": true,
   "dependencies": {
     "check-node-version": "^4.2.1",
