@@ -10,7 +10,7 @@ import { providerOptions } from "./providerOptions";
 import { networkParams } from "./networks";
 
 const web3Modal = new Web3Modal({
-  cacheProvider: true, // optional
+  cacheProvider: false, // optional
   providerOptions // required
 });
 
@@ -486,10 +486,12 @@ Collect and stake NFT art to generate ART particles <br></br>and build your own 
                     {!account ? (
             <StyledButton onClick={connectWallet} >Connect Wallet</StyledButton>
           ) : (
-<StyledButton onClick={(e) => {e.preventDefault(); dispatch(connect()); getData();}}> MINT </StyledButton>
+            <StyledButton onClick={disconnect} >Disconnect Wallet</StyledButton>
           )} 
                       <s.SpacerMedium />
-        
+                      Please connect to mint.
+                      <s.SpacerSmall />
+                      <StyledButton onClick={(e) => {e.preventDefault(); dispatch(connect()); getData();}}> MINT </StyledButton>
                     <s.SpacerMedium />
                     {blockchain.errorMsg !== "" ? (
                       <>
